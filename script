@@ -1,0 +1,95 @@
+     
+Bwalle etame Christine félicitée
+      24s99344
+       (tpe inf 152)
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+     body{
+      background:20 px;
+     }
+     h1{
+       color:#333;
+   </style>
+   </head>
+   <body>
+      <h1>christine etame</h1>
+        <p><strong>email:</strong>christine etame@gmail.com</p>
+        
+      <h2>competences</h2>
+      <ul>
+        <li>HTML/CSS</li>
+        <li>VBA pour excel</li>
+        <li>programlation Haskell</li>
+      </ul>
+      
+       <h2>experience<h2>
+         <p>Devellopeuse Debutante Passionnee
+            Par Le Web Et Les Maths</p>
+       <h2>portfolio</h2>
+       <ul>
+         <li><a href="https://github.com/christine
+                      /projet1"</a></li>
+         <li><a href="https://github.com/christine
+                      /projet2:site HTML </a><li>
+            
+        </ul>  
+      </body>
+      </html>   
+      (fin tpe 1)   
+      
+      
+         
+         
+       (  tpe 2 )
+      
+     <!DOCTYPE html>
+     <html>
+     <html lang="fr">
+     <head>
+       <meta charset="UTF-8">
+       <title>Galerie de photos</title>
+       <style>
+        
+        .galerie{
+           display:grid;
+           grid-template-colums:repeat(3,1fr);/*3colonnes*/
+            gap:10px;
+         }
+         
+         .galerie img{
+           width:100%;
+         }
+        </style> 
+       </head>
+       <Body>
+          <h1>Ma galerie photo</h1>
+          <divclass="galerie">
+            <img src="photo1.jpg"alt="photo1">
+            <img src="photo2.jpg"alt="photo2">
+            <img src="photo3.jpg"alt="photo3">
+          </div>
+       </body>
+       </html>
+       
+       
+           ( tpe 3 )
+           
+           <!DOCTYPE html>
+           <html>
+           <head>
+             <meta charset=" UTF-8>
+           </head>
+             <body>
+               <p>
+                <img src="icone.png"alt="Icône"width="20">
+                <a href="https;//github.com/christine"></a>
+                </p>
+            </body>
+            </html>
+             
+             
+       
