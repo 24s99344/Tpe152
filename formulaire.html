@@ -1,0 +1,79 @@
+<!Doctype html>
+<html lang="fr"
+<head>
+ <meta charset="UTF-8>
+ <title>formulaire d'inscription</title>
+ <link rel="stylesheet"href="style.css">
+ <style>
+ form{
+  width: 250px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,select,textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  botder: 1px solid #cc;
+  border-radius: 4px;
+}
+
+button{
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px
+}
+
+button[type="reset"]{
+  background-color: #f44336;
+}
+  </style>
+ </head>
+<body>
+  <h1>formulaire d'inscription</h1>
+  <p>veullez remplir ce formulaire pour vous inscrire à la formation</p>
+  <form>
+   <label for="nom"> Nom :</label>
+   <input type="text" id="nom" name="nom" required>
+   
+   <label for="prenom">Prenom: </label>
+   <input type="text"id="prenom" name="prenom" required>
+   
+   <label for="Date naissance">Date :</label>
+   <input type="date" id="date" name="date" required>
+   
+   <label for=""Adresse">Adresse :</label>
+   <input type="text id="adresse" name="Adresse">
+   
+   <label for="Code postal">Code :</label>
+   <input type="text" id="name" name="code">
+   
+   <label for="ville">Ville :</label> 
+   <input type="text" id="ville" name="Ville">
+   
+   <label for="pays">Pays :</label>
+   <input type="text" id="pays" name="Pays">
+   
+   <label for="email">Email:</label>
+   <input type="email"id="email" name="E-mail">
+   
+   <label for="Numero de telephone">Tel:</label>
+   <input type="tel" id="tel" name="tel" required>
+   
+   <button type="Submit">Envoyer</button>
+  </form>
+</body>
+</html>
